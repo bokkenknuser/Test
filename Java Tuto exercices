@@ -1,0 +1,44 @@
+public class discountPrice {
+    public static void main(String args[]) {
+        int ticketPrice = 10;
+        int age = 50;
+        boolean student = false;
+            if(age<=15||age>60||student){
+                 ticketPrice = 5;
+            System.out.println("Your ticket price is "+ticketPrice+"$.");
+            }else{System.out.println("Sorry you don't meet the requirements for a discount. Your price will remain at 10$");
+            }
+}
+}
+
+public class enemyAi {
+    public static void main(String args[]) {
+
+        boolean canSeePlayer = true;
+        boolean playerPoweredUp = true;
+
+
+        if (canSeePlayer) {
+        if (!playerPoweredUp) {
+        System.out.println("Attack!");
+        } else {
+            System.out.println("Run away!");
+        }} else {
+        System.out.println("Wander.");
+}
+}
+}
+
+public class checkWeather {
+    public static void main(String args[]) {
+
+        boolean isSnowing = true;
+        boolean isRaining = false;
+        double temperature = 60.0;
+
+        if(isSnowing||isRaining||temperature<50){
+            System.out.println("Let's Stay Home.");
+        }else{ System.out.println("Let's go out!");
+        }
+}
+}
